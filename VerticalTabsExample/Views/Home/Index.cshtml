@@ -1,0 +1,35 @@
+﻿@using VerticalTabsExample.Models;
+
+@model IList<VerticalTabModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<html>
+	<head>
+		<title>Vertical tabs example</title>
+		<link href="~/Content/css/verticalTab.css" rel="stylesheet" type="text/css" />
+        <style>
+            body{background-color:#EEF0EB}
+            div.block{display:block; height:800px;background-color:#999;border-radius:6px;-moz-border-radius:6px;}
+        </style>
+	</head>
+<body>
+
+    <div class="block">     
+        <h1 id="shop">Shop</h1>
+    </div>
+
+    <div class="block">
+        <h1 id="news">News</h1>
+    </div>
+	
+    <div class="block">
+        <h1 id="search">Search</h1>
+    </div>
+
+    @foreach (VerticalTabModel verticalTab in this.Model)
+    { @Html.Partial("VerticalTab", verticalTab) }
+</body>
+</html>

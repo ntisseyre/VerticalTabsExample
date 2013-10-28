@@ -1,0 +1,13 @@
+﻿@model VerticalTabsExample.Models.VerticalTabModel
+
+<style>
+body a#@Model.Id, body a#@Model.Id:link
+{@Model.Alignment: 0;top: @this.Model.Top !important;margin-@this.Model.Alignment: -5px !important;background-image: url(@Url.Content(this.Model.TabImage));}
+
+body a#@this.Model.Id:hover
+{ margin-@this.Model.Alignment: -3px !important; }
+
+* html a#@this.Model.Id, * html a#@this.Model.Id:link
+{ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@Url.Content(this.Model.TabImage)'); }
+</style>
+<a id="@this.Model.Id" class="menu" href="@this.Model.Href"></a>

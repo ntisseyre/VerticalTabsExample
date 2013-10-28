@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerticalTabsExample", "VerticalTabsExample\VerticalTabsExample.csproj", "{36B2EBCC-6F74-4EC2-8058-47B4F5C9D77D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B2EBCC-6F74-4EC2-8058-47B4F5C9D77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B2EBCC-6F74-4EC2-8058-47B4F5C9D77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B2EBCC-6F74-4EC2-8058-47B4F5C9D77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B2EBCC-6F74-4EC2-8058-47B4F5C9D77D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

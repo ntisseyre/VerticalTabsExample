@@ -1,0 +1,19 @@
+﻿body a.menu,
+body a.menu:link {
+position: fixed !important;
+top: 200px !important;
+display: block !important;
+width: 37px !important;
+height: 100px !important;
+margin: 0 !important;
+padding: 0 !important;
+z-index: 100001 !important;
+background-repeat: no-repeat !important;
+outline-style: none;
+background-position: top left !important; 
+background-color: transparent
+}
+
+body a.menu:hover {cursor: pointer;background-color:transparent}
+* html a.menu,
+* html a.menu:link {position: absolute !important;}
